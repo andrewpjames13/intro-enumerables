@@ -1,4 +1,9 @@
 def longest_word(words)
+  # words.max_by(&:length)
+
+  words.max_by do |word|
+    word.length
+  end
 end
 
 # ------ code above this line ------
