@@ -1,4 +1,6 @@
-
+def find_by_field_name(input, value)
+  input.find {|key| key[:name] == value}
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

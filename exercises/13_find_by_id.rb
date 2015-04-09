@@ -1,11 +1,4 @@
 def find_by_id(input, number)
-  # input.map do |i|
-  #   if i[:id] == number
-  #    i.index(true)
-  #   end
-  # end
-  # input[@index]
-
   input.find {|i| i[:id] == number}
 end
 # ------ code above this line ------
