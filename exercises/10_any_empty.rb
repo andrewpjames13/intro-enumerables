@@ -1,4 +1,16 @@
-
+def any_empty?(array)
+  count = 0
+  array.each do |a|
+    if a == '' || a == nil
+      count += 1
+    end
+  end
+  if count > 0
+    true
+  else
+    false
+  end
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'
