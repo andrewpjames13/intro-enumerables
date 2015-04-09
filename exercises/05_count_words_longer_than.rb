@@ -1,11 +1,18 @@
 def count_words_longer_than(words, length)
-  wordLength = words.map do |word|
-                word.length
-                end
+  # wordLength = words.map do |word|
+  #               word.length
+  #               end
+  # array = []
+  # wordLength.each do |l|
+  #   if l > length
+  #     array << l
+  #   end
+  # end
+  # array.count
   array = []
-  wordLength.each do |l|
-    if l > length
-      array << l
+  words.each do |word|
+    if word.length > length
+      array << word
     end
   end
   array.count
