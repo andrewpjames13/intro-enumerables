@@ -1,5 +1,12 @@
 def find_by_id(input, number)
   input.find {|i| i[:id] == number}
+    
+  # input.reduce(nil) do |result, obj|
+  #   if obj[:id] == number
+  #     result = obj
+  #   end
+  #   result
+  # end
 end
 # ------ code above this line ------
 
