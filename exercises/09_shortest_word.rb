@@ -1,3 +1,6 @@
+def shortest_word(words)
+  words.min_by { |x| x.length }
+end
 
 # ------ code above this line ------
 
