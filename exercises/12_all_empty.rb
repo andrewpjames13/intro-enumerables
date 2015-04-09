@@ -1,4 +1,6 @@
-
+def all_empty?(array)
+  array.empty?
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'
