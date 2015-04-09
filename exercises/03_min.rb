@@ -1,4 +1,5 @@
 def min(numbers)
+  numbers.min
 end
 
 # ------ code above this line ------
