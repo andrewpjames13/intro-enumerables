@@ -89,3 +89,4 @@ The way we have the tests set up in each exercise file is NOT how it is normally
 * cd into the exercises folder
 * bundle
 * run `$ ruby <filename>` (OR `$ ruby all.rb` for all the specs)
+# intro-enumerables
